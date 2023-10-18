@@ -88,7 +88,7 @@ border-bottom:.1rem solid rgba(0,0,0,.2)
     width:35vw;
     border-radius:30px;
     width:20rem;
-    height:20rem;
+    height:25rem;
  }
     .home-content p{
      
@@ -312,7 +312,7 @@ color:var(--second-background-color);
         padding:1.5rem;
         font-size:1.6rem;
         color:white;
-        background:white;
+        background:transparent;
         border-bottom: 2px solid #d3d3d3;
         border-radius:.8rem;
         margin:.7rem 0;
