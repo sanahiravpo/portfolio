@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons.min.css' rel="stylesheet">
+    <link rel="stylesheet"  href="index.css">
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- email js-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("ZsdmIw_96EKwSJ-2V");
+   })();
+</script>
+</head>
+<body>
+    <header class="header">
+<a href="#" class="logo">portfolio</a>
+
+<nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#project">project</a>
+    <a href="#contact">contact</a>
+     
+</nav>
+ </header>  
+ <section class="home" id="home">
+<div class="home-content">
+    <h3>Hello,It's me</h3><br>
+    <h1>Sanahira vpo</h1><br>
+    <br>
+    <h3>And I'am a<span>Fullstack Developer</span>
+    </h3>
+    <p> recently i graduated with the degree in computer science and engineering .and have a strong passion for technology and software development.Throughout my academic journey,i have knowledge about java,c,html,sql like.As a fresher, I am eager to bring my knowledge, enthusiasm, and willingness to learn to a professional setting. 
+     </p>
+     <div class="social-media">
+        <a href="https://github.com/sanahiravpo/"><i class='bx bxl-github'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="https://wa.me/7510989818"><i class='bx bxl-whatsapp'></i></a>
+        <a href="https://www.linkedin.com/in/sanahira-vpo-949ab922b"><i class='bx bxl-linkedin'></i></a>
+        
+      </div>
+      <a href="C:\Users\sanah\Downloads\RESUME-SANAHIRA VPO (2).pdf" class="btn">Download Cv</a> 
+
+</div>  
+<div class="home-img">
+    <img src="sana.png" alt="">
+
+</div>
+</section>
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="pic y.jpg" alt="">
+
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About<span>Me</span></h2><br>
+        <h3>FullstackDeveloper</h3><br>
+        <p>
+            In searching of a challenging position in an organization that can
+utilize my Technical Skills ,database and management expertise to
+fascilitate the advancement of the Organanization well as to gain
+in a deeper understanding of emerging trends in technology.
+
+        </p>
+    </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest<span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="pic5.png" alt="">
+            <div class="portfolio-layer">
+                <h4>LinkedIn</h4>
+                <a href="scrn.png"><i class="bx bx-link-external"></i></a>
+            </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="pic2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>W3school</h4>
+                    <a href="w.png"><i class="bx bx-link-external"></i></a>
+                </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="pic3.png" alt="">
+                    <div class="portfolio-layer">
+                        
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                    </div>
+                    
+                 
+                              
+
+      
+</section>
+<section class="contact" id="contact">
+    <h2 class="heading">contact<span>Me!</span></h2>
+    <form action="#" onsubmit="sendMail();reset();return false;">
+        <div class="input-box">
+           
+            <input type="text" placeholder="FullName" id="fullname" required>
+            <input type="email" placeholder="Email Address" id="email_id" required>
+
+        </div>
+       
+<textarea name="" id="message" cols="30" rows="10" placeholder="your message"></textarea>
+<input type="submit" value="Send Message" class="btn" onclick="sendMail()">
+</form>
+</section>
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by sanahira vpo -- sanahiravpo@gmail.com\All right Reserved</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
